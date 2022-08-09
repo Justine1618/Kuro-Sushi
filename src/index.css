@@ -1,3 +1,24 @@
-.hello {
+.hero-title {
+    font-weight: 800;
+    font-size: 2em;
     color: red;
+}
+
+.hero-tab-container {
+    display: flex;
+    flex-direction: horizontal;
+    gap: 0.5em;
+}
+
+.hero-container {
+    background-color: grey;
+}
+
+.hero-button:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.footer-container {
+    background-color: gray;
 }

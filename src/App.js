@@ -2,7 +2,9 @@
 
 import React from "react";
 import './index.css';
+import Home from "./home.jsx";
+
 
 export default function App() {
-    return <h1 className='hello'>Hello Sushi!</h1>
+    return <Home />
 }
