@@ -15,22 +15,32 @@ import Careers from "./careers.jsx";
 import About from "./about.jsx";
 import Party from "./party.jsx";
 
-const App = () => {
-    return (
+class App extends React.Component  {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            activePage: <Home />,
+        };
+
+        this.pages = [<Home />, <Menu />, <Reservations />, <Contact />,
+            <Allergy />, <Calorie />, <Careers />, <About />, <Party />];
+    }
+
+    handleClick(page) {
+        this.setState({activePage : this.pages[page]});
+    }
+
+    render() { 
+        return (
         <div>
-            <Hero />
-            <Home />
-            <Menu />
-            <Reservations />
-            <Contact />
-            <Footer />
-            <Allergy />
-            <Calorie />
-            <Careers />
-            <About />
-            <Party />
+            <Hero onClick={(page) => {this.handleClick(page)}}/>
+            {this.state.activePage}
+            <Footer onClick={(page) => {this.handleClick(page)}}/>
+
         </div>
-    )
-};
+    )}
+}
 
 export default App;
