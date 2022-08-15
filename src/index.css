@@ -29,3 +29,38 @@
     gap: 25px;
     margin: 25px;
 }
+
+.reservations-container {
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 0.5em;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.reservations-container input {
+    width: 100%;
+}
+
+.contact-container {
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.contact-container input {
+    width: 100%;
+}
