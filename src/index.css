@@ -64,3 +64,12 @@
 .contact-container input {
     width: 100%;
 }
+
+table, th, td {
+    border: 1px solid black;
+    padding: 0.2em;
+}
+
+table {
+    margin: 1em;
+}
