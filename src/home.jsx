@@ -1,12 +1,14 @@
 'use strict';
 
 import React from "react";
+import Slideshow from "./slideshow.jsx";
 
 const Home = () => {
     return (
         <div className="homepage">
             <h1 className="tagline">LA's Best Sushi!</h1>
-            <div className="carosel">Placeholder for carosel</div>
+            <Slideshow />
+            <br />
             <div className="testimonial">
                 <p>"This is the best sushi that I have ever had!" -Bob Bobbington</p>
                 <p>"I really love the garlic ponzu salmon!" -Justine</p>
