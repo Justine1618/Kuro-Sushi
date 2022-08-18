@@ -36,7 +36,9 @@ class App extends React.Component  {
         return (
         <div>
             <Hero onClick={(page) => {this.handleClick(page)}}/>
-            {this.state.activePage}
+            <div className="content">
+                {this.state.activePage}
+            </div>
             <Footer onClick={(page) => {this.handleClick(page)}}/>
 
         </div>

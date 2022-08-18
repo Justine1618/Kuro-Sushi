@@ -2,10 +2,30 @@
     box-sizing: border-box;
 }
 
+:root {
+    --highlight: #BBBE64;
+    --background: #BCAA99;
+    --content: #F2F7F2;
+    --important-text: #8E5572;
+    --dark-accent: #443850;
+    background-color: var(--background);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--content);
+}
+
 .hero-title {
     font-weight: 800;
     font-size: 2em;
-    color: red;
+    color: var(--important-text);
 }
 
 .hero-tab-container {
@@ -15,7 +35,9 @@
 }
 
 .hero-container {
-    background-color: grey;
+    background-color: var(--highlight);
+    margin: 0;
+    padding: 0.5em;
 }
 
 .hero-button:hover {
@@ -24,7 +46,9 @@
 }
 
 .footer-container {
-    background-color: gray;
+    background-color: var(--highlight);
+    margin: 0;
+    padding: 0.5em;
 }
 
 .menu-container {
@@ -111,5 +135,16 @@ table {
 }
 
 .slideshowDot.active {
-    background-color: #6a0dad;
+    background-color: var(--important-text);
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 1em;
+    color: var(--dark-accent)
+}
+
+p {
+    margin: 0;
+    padding: 0.5em;
 }
