@@ -10,9 +10,9 @@ const Home = () => {
             <Slideshow />
             <br />
             <div className="testimonial">
-                <p>"This is the best sushi that I have ever had!" -Bob Bobbington</p>
-                <p>"I really love the garlic ponzu salmon!" -Justine</p>
-                <p>"Wow, look at all that sushi go!" -Sarah Savanah</p>
+                <div><em>"This is the best sushi that I have ever had!" </em>-Robert Dalton</div>
+                <div><em>"I really love the garlic ponzu salmon!"</em> -Justine Walters</div>
+                <div><em>"Wow, look at all that sushi go!" </em>-Sarah Calbert</div>
             </div>
         </div>
     )

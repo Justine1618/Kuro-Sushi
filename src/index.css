@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -51,18 +52,22 @@ body {
     padding: 0.5em;
 }
 
+.footer-button:hover {
+    background-color: darkgray;
+    color: white;
+}
+
 .menu-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 25px;
-    margin: 25px;
+    margin: 0;
+    padding: 2em;
 }
 
 .reservations-container {
-    margin: 2em;
-    padding: 1em;
-    border: 1px solid black;
-    border-radius: 1em;
+    margin: 0;
+    padding: 2em;
 }
 
 .col-25 {
@@ -83,10 +88,7 @@ body {
 }
 
 .contact-container {
-    margin: 2em;
-    padding: 1em;
-    border: 1px solid black;
-    border-radius: 1em;
+    padding: 2em;
 }
 
 .contact-container input {
@@ -147,4 +149,40 @@ h1 {
 p {
     margin: 0;
     padding: 0.5em;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+}
+
+table {
+    margin: 0 2em;
+}
+
+ul {
+    margin: 0 2em;
+}
+
+.calorie-container {
+    padding: 1em;
+}
+
+.allergy-container {
+    padding: 1em;
+}
+
+.careers-container {
+    padding: 1em;
+}
+
+.about-container {
+    padding: 1em;
+}
+
+.party-container {
+    padding: 1em;
 }
