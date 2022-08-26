@@ -186,3 +186,9 @@ ul {
 .party-container {
     padding: 1em;
 }
+
+.hours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
